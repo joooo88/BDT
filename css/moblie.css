@@ -1,0 +1,388 @@
+@charset "UTF-8";
+/*데탑 1440px*/
+@media screen and (max-width: 1440px) {
+  main #home article .home-right .home-grid {
+    grid-auto-rows: 170px;
+  }
+  main #home article .home-right .item3 img {
+    left: 1.4rem;
+    width: 150px;
+  }
+  main #about .ab1 ul .ab1-left div {
+    height: 500px;
+  }
+  main #about .ab1 ul .ab1-right {
+    padding-left: 3rem;
+  }
+  main #about .ab2 ul .ab2-left div h3 {
+    width: 90%;
+  }
+  main #about .ab2 ul .ab2-left p {
+    width: 80%;
+  }
+  main #about .ab2 ul .ab2-right div {
+    height: auto;
+  }
+}
+/*노트북 1024px*/
+@media screen and (max-width: 1024px) {
+  header .hd_all .pc_menu {
+    width: 80%;
+  }
+  header .hd_all .pc_menu .menu_style li a {
+    font-size: 0.9rem;
+  }
+  main #home article .home-left .home-title {
+    width: 100%;
+  }
+  main #home article .home-left .home-title h3 {
+    font-size: 1.3rem;
+  }
+  main #home article .home-left .home-icon {
+    width: 100%;
+  }
+  main #home article .home-left .home-icon a div {
+    width: 40px;
+    height: 40px;
+  }
+  main #home article .home-left .home-icon a div img {
+    width: 20px;
+  }
+  main #home article .home-left .home-icon a p {
+    margin-left: 1rem;
+    font-size: 1.2rem;
+  }
+  main #home article .home-right .home-grid {
+    width: 90%;
+    grid-auto-rows: 150px;
+  }
+  main #home article .home-right .item3 img {
+    width: 130px;
+    left: 0.5rem;
+  }
+  main #about {
+    padding: 0 5rem;
+  }
+  main #coin article ul .coin-left {
+    width: 45%;
+  }
+  main #coin article ul .coin-left .left-top {
+    width: 300px;
+    padding: 1rem;
+  }
+  main #coin article ul .coin-left .left-top h2 {
+    margin-top: 2rem;
+    margin-left: 2rem;
+  }
+  main #coin article ul .coin-left .left-down div {
+    width: 300px;
+  }
+  main #coin article ul .coin-right .right-top .graph {
+    height: 350px;
+  }
+  main #coin article ul .coin-right .right-top .graph .g-item {
+    width: 30px;
+  }
+  main #coin article ul .coin-right .right-down .down1 li {
+    font-size: 0.9rem;
+    white-space: nowrap;
+  }
+  main #coin article ul .coin-right .right-down .down2 li {
+    font-size: 0.9rem;
+    white-space: nowrap;
+  }
+  main #roadmap .road-2023 div ul {
+    max-width: 100%;
+    height: 300px;
+  }
+  main #roadmap .road-2024 div ul {
+    max-width: 100%;
+    height: 300px;
+  }
+  main #contact .contact_wrap {
+    padding: 5rem;
+  }
+}
+/*패드 991px*/
+@media screen and (max-width: 991px) {
+  main #home article .home-right .home-grid {
+    grid-auto-rows: 130px;
+  }
+  main #home article .home-right .item3 img {
+    left: 1rem;
+    width: 110px;
+  }
+}
+/*아이패드 768px*/
+@media screen and (max-width: 768px) {
+  header .hd_all {
+    padding: 0 3rem;
+  }
+  header .hd_all .pc_menu {
+    padding: 0 1rem;
+  }
+  main #home article {
+    flex-direction: column-reverse;
+    padding-top: 20rem;
+  }
+  main #home article .home-right {
+    width: 100%;
+  }
+  main #home article .home-right .item3 img {
+    left: 2rem;
+  }
+  main #home article .home-left {
+    padding-top: 3rem;
+    padding-bottom: 10rem;
+    width: 100%;
+  }
+  main #home article .home-left .home-icon {
+    padding-top: 2rem;
+    flex-direction: row;
+  }
+  main #about .ab1 ul {
+    flex-direction: column;
+  }
+  main #about .ab1 ul .ab1-left {
+    width: 100%;
+  }
+  main #about .ab1 ul .ab1-left div {
+    height: auto;
+  }
+  main #about .ab1 ul .ab1-right {
+    width: 100%;
+    padding-left: 1rem;
+    padding-top: 2rem;
+  }
+  main #about .ab2 {
+    padding: 2rem 0;
+  }
+  main #about .ab2 ul {
+    flex-direction: column-reverse;
+  }
+  main #about .ab2 ul .ab2-right {
+    width: 100%;
+  }
+  main #about .ab2 ul .ab2-left {
+    width: 100%;
+    padding-left: 1rem;
+    padding-top: 2rem;
+  }
+  main #coin article ul {
+    flex-direction: column;
+  }
+  main #coin article ul .coin-left {
+    width: 100%;
+    display: flex;
+  }
+  main #coin article ul .coin-left .left-top {
+    width: 250px;
+  }
+  main #coin article ul .coin-left .left-top h2 {
+    margin-left: 1rem;
+    font-size: 1.7rem;
+  }
+  main #coin article ul .coin-left .left-down {
+    padding-top: 0;
+  }
+  main #coin article ul .coin-left .left-down div {
+    padding-top: 1rem;
+    height: auto;
+  }
+  main #coin article ul .coin-right {
+    width: 100%;
+  }
+  main #coin article ul .coin-right .right-top {
+    padding-top: 5rem;
+    justify-content: center;
+  }
+  main #coin article ul .coin-right .right-down .down1 {
+    flex-direction: row;
+    justify-content: center;
+  }
+  main #coin article ul .coin-right .right-down .down2 {
+    flex-direction: row;
+    justify-content: center;
+  }
+  main #roadmap .road-2023 div ul {
+    height: 220px;
+    padding: 1rem;
+    gap: 0.3rem;
+  }
+  main #roadmap .road-2023 div ul li {
+    width: 200px;
+    height: 200px;
+  }
+  main #roadmap .road-2024 div ul {
+    height: 220px;
+    padding: 1rem;
+    gap: 0.3rem;
+  }
+  main #roadmap .road-2024 div ul li {
+    width: 200px;
+    height: 200px;
+  }
+  main #contact .contact_wrap {
+    padding: 0 0 5rem;
+  }
+}
+/* 모바일 767px*/
+@media screen and (max-width: 767px) {
+  header .hd_all .pc_menu {
+    display: none;
+  }
+  header .hd_all .m_menu_button {
+    display: block;
+  }
+  footer .footer_area {
+    max-width: 90%;
+  }
+}
+/* 모바일2 576px */
+@media screen and (max-width: 576px) {
+  main #home {
+    padding: 0px 3rem;
+  }
+  main #home article .home-right .home-grid {
+    grid-auto-rows: 100px;
+  }
+  main #home article .home-right .item3 img {
+    width: 100px;
+    top: 2rem;
+    left: 1.1rem;
+  }
+  main #coin {
+    padding: 0 3rem;
+  }
+  main #coin article .coin-title h2 {
+    white-space: nowrap;
+  }
+  main #coin article ul .coin-left {
+    gap: 1rem;
+    flex-direction: column;
+  }
+  main #roadmap .road-2023 div ul {
+    height: 170px;
+    padding: 0.2rem;
+  }
+  main #roadmap .road-2023 div ul li {
+    width: 150px;
+    height: 150px;
+  }
+  main #roadmap .road-2023 div ul li h3 {
+    font-size: 1.2rem;
+  }
+  main #roadmap .road-2023 div ul li h4 {
+    font-size: 0.9rem;
+  }
+  main #roadmap .road-2024 div ul {
+    height: 170px;
+    padding: 0.2rem;
+  }
+  main #roadmap .road-2024 div ul li {
+    width: 150px;
+    height: 150px;
+  }
+  main #roadmap .road-2024 div ul li h3 {
+    font-size: 1.2rem;
+  }
+  main #roadmap .road-2024 div ul li h4 {
+    font-size: 0.9rem;
+  }
+  main #contact {
+    padding: 0 3rem;
+  }
+  footer .footer_area ul {
+    flex-direction: column;
+  }
+  footer .footer_area ul .foter-left .inc {
+    text-align: right;
+  }
+  footer .footer_area ul .foter-right .white_pp {
+    flex-direction: row-reverse;
+  }
+  footer .footer_area ul .foter-right .sns {
+    flex-direction: row-reverse;
+  }
+  footer p {
+    padding: 0 3rem;
+  }
+}
+/* 모바일3 갤석시 425px */
+@media screen and (max-width: 425px) {
+  main #home article .home-right .home-grid {
+    grid-auto-rows: 80px;
+  }
+  main #home article .home-right .item3 img {
+    max-width: 90%;
+    left: 0.3rem;
+  }
+  main #home article .home-left .home-title h3 {
+    font-size: 1.1rem;
+  }
+  main #about {
+    padding: 0 2rem;
+  }
+  main #coin article .coin-title h2 {
+    white-space: normal;
+  }
+  main #coin article ul .coin-right .right-top {
+    gap: 1rem;
+  }
+  main #coin article ul .coin-right .right-down .down1 li {
+    white-space: normal;
+    line-height: 2;
+    text-align: center;
+  }
+  main #coin article ul .coin-right .right-down .down2 li {
+    white-space: normal;
+    line-height: 2;
+    text-align: center;
+  }
+  main #roadmap {
+    padding: 0 2rem;
+  }
+  main #roadmap .road-2023 div ul {
+    height: 190px;
+  }
+  main #roadmap .road-2023 div ul li {
+    max-width: 90%;
+  }
+  main #roadmap .road-2023 div ul li h4 {
+    font-size: 0.8rem;
+    padding: 0 0.3rem;
+  }
+  main #roadmap .road-2024 div ul {
+    height: 190px;
+  }
+  main #roadmap .road-2024 div ul li {
+    max-width: 90%;
+  }
+  main #roadmap .road-2024 div ul li h4 {
+    font-size: 0.8rem;
+    padding: 0 0.3rem;
+  }
+  main #contact {
+    padding-top: 3rem;
+  }
+  main #contact .contact_wrap form .email {
+    width: 100%;
+    text-align: center;
+  }
+  main #contact .contact_wrap form #message {
+    text-align: center;
+    width: 100%;
+  }
+  main #contact .contact_wrap form .send {
+    width: 100%;
+    height: 100px;
+    margin-left: 0;
+    margin-top: 1rem;
+  }
+}
+/* 모바일4 아이폰 375px */
+@media screen and (max-width: 375px) {
+  main #home {
+    padding: 0 2rem;
+  }
+}/*# sourceMappingURL=moblie.css.map */
